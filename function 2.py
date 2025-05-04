@@ -1,0 +1,11 @@
+def Myfun():
+    print("num1")
+    print("num2")
+    print("num3")
+print("starting of program")
+Myfun()
+print("statement 1")
+print("statement 2")
+Myfun()
+print("statement 3")
+print("statement 4")
