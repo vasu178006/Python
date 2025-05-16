@@ -1,0 +1,10 @@
+fObj=open(r"C:\Users\vaska\OneDrive\Desktop\Python\file1.txt","r")
+print("original files content is following")
+line=fObj.readline()
+while line !='':
+    print(line)
+    line=fObj.readline()
+fObj.close()
+fObj=open(r"C:\Users\vaska\OneDrive\Desktop\Python\file2.text","a")
+fObj.write("\nThis content is appended")
+fObj.close()

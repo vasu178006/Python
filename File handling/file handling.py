@@ -1,0 +1,6 @@
+fObj = open(r"C:\Users\vaska\OneDrive\Desktop\Python\file1.doc", "w")
+fObj.write("This is my first file")
+fObj.write("\nhow are you")
+fObj.write("\nTake care")
+fObj.close()
+print("File created")
